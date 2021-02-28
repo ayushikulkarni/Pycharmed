@@ -1,0 +1,136 @@
+var1 = 1
+while (var < 10) :
+    print(var1)
+    var1 = var1 + 1
+
+
+while (var1 <= number ) :
+    if (number % var1 == 0) :
+        print("(0)". format (var1))
+    var1 = var1 + 1
+
+
+
+
+numb=input("Enter your number:")
+numb = int(numb)
+mult = 1
+while(mult <= 10):
+    print(mult*numb)
+    mult = mult + 1
+
+var1 = 200
+var2 = 350
+while (var1<=var2):
+    if (var1 % 7 ==0):
+        print(var1)
+    var1 = var1 + 1
+
+
+
+names=['TJ','Rishi','Tharun','Aayushi','Pratyush','Pratik','Suhaas','Tejas']
+for stud in names:
+    #print(stud)
+    if stud == "Aayushi":
+        break
+    print(stud
+
+
+for x in range(6):
+    print (x)
+
+
+    import turtle
+t=turtle.Turtle()
+t.right(30)
+t.forward(30)
+t.right(50)
+t.forward(65)
+t.right(100)
+t.forward(50)
+t.right(23)
+t.forward(50)
+t.right(10)
+turtle.done()
+
+def superbowl(team2, team1):
+  print(team1 + " is playing against " + team2 +" in superbowl LIV")
+  print("I wish " + team2 + " are going to defeat the " + team1 + " by 50/11")
+
+
+superbowl("Chiefs", "Bucs") ##
+
+
+
+res=0
+def cubed(numb):
+    numb=int(numb)
+    res = numb ** 3
+    return res
+
+res=cubed(5)
+
+
+
+fruits=["Apple","Banana","Mango"]
+print(f'Current List of fruits: {fruits}')
+print (fruits)
+
+new_item = input("Enter the new fruit to add:")
+fruits.append(new_item)
+
+print(fruits)
+
+
+
+
+ruits=["Apple","Banana","Mango","Pineapple","Kiwi","Orange","Watermelon","Plum"]
+print(f'Current List of fruits: {fruits}')
+print (fruits)
+
+new_item = input("Enter the new fruit to add:")
+#fruits.append(new_item)
+fruits.insert(2,new_item)
+print(fruits)
+print(fruits.count("Apple"))
+fruits.sort(reverse=True)
+print(fruits)
+
+#print(fruits[5])
+#fruits.remove("Banana")
+#print(fruits)
+#fruits.pop(1)
+#print(fruits)f
+
+Animal=["Lion","Tiger","Elephant","Giraffe"]
+print(f'Current List of Animal: {Animal}')
+#print ("list of the animals")
+
+new_item = input("Enter the new animal to add:")
+Animal.append(new_item)
+
+
+#games is a dictionary
+games={1:'soccer',2:'basketball'}
+print(games)
+print(games[1])
+
+#append to a dictionary?
+games[3]="cricket"
+print(games)
+
+games[4]="hockey"
+print(games)
+
+#update a dictionary
+games2={0:"football"}
+games.update( games2 )
+print(games)
+
+#remove the element from dictionary
+games.pop(4)
+print(games)
+
+#remove all the elements from dictionary
+games.clear()
+print(games)
